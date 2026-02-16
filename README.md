@@ -1,13 +1,3 @@
-Anladım, o görüntü tam bir "text-wall" (metin duvarı) faciası olmuş. Haklısın, profesyonel bir yazılım projesi böyle görünmemeli. GitHub'da bir projenin "vitrini" README dosyasıdır ve bu dosyanın hem okunaklı hem de görsel olarak tatmin edici olması gerekir.
-
-Senin için bu içeriği, **modern GitHub standartlarında**, hiyerarşisi net, emojilerin yerinde kullanıldığı ve bölümlerin birbirinden ayrıldığı **"Premium"** bir sürüme dönüştürdüm.
-
----
-
-### 🚀 Yeni ve Profesyonel `README.md` Tasarımı
-
-Aşağıdaki kodu kopyalayıp GitHub'daki `README.md` dosyanın içine tamamen yapıştırabilirsin:
-
 ```markdown
 # 📸 AI Passport Photo Generator
 > **Sıradan bir selfie'yi saniyeler içinde profesyonel bir biyometrik vesikalığa dönüştürün.**
