@@ -1,11 +1,11 @@
 ```markdown
-# 📸 AI Passport Photo Generator
-> **Sıradan bir selfie'yi saniyeler içinde profesyonel bir biyometrik vesikalığa dönüştürün.**
+## 📸 AI Passport Photo Pro
+> **Sıradan selfieleri saniyeler içinde stüdyo kalitesinde, biyometrik uyumlu vesikalık fotoğraflara dönüştüren yapay zeka destekli bir web uygulaması.**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+---
+
+### 💡 Neden AI Passport Photo Pro?
+Geleneksel fotoğrafçılık süreçlerini dijitalleştiren bu uygulama, **Google Gemini 2.5 Flash** modelinin görsel işleme yeteneklerini kullanarak profesyonel sonuçlar üretir. Karmaşık düzenleme araçlarına veya bir fotoğrafçıya gitmeye gerek kalmadan, doğrudan tarayıcınız üzerinden resmi standartlara uygun görseller hazırlar.
 
 ---
 
