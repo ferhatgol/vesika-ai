@@ -5,12 +5,15 @@
 ---
 
 ### 💡 Neden AI Passport Photo Pro?
-Geleneksel fotoğrafçılık süreçlerini dijitalleştiren bu uygulama, **Google Gemini 2.5 Flash** modelinin görsel işleme yeteneklerini kullanarak profesyonel sonuçlar üretir. Karmaşık düzenleme araçlarına veya bir fotoğrafçıya gitmeye gerek kalmadan, doğrudan tarayıcınız üzerinden resmi standartlara uygun görseller hazırlar.
+Geleneksel fotoğrafçılık süreçlerini dijitalleştiren bu uygulama, **Google Gemini 2.5 Flash** modelinin görsel işleme yeteneklerini
+kullanarak profesyonel sonuçlar üretir. Karmaşık düzenleme araçlarına veya bir fotoğrafçıya gitmeye gerek kalmadan, doğrudan tarayıcınız
+üzerinden resmi standartlara uygun görseller hazırlar.
 
 ---
 
 ## 🌟 Proje Hakkında
-Bu proje, karmaşık fotoğraf düzenleme araçlarına ihtiyaç duymadan, **Google Gemini 2.5 Flash** modelinin gücünü kullanarak herkesin kendi evinde stüdyo kalitesinde vesikalık fotoğraflar çekebilmesini sağlar.
+Bu proje, karmaşık fotoğraf düzenleme araçlarına ihtiyaç duymadan, **Google Gemini 2.5 Flash** modelinin gücünü kullanarak herkesin
+kendi evinde stüdyo kalitesinde vesikalık fotoğraflar çekebilmesini sağlar.
 
 ### Neden AI Passport Pro?
 * **Biyometrik Uyum:** Pasaport ve kimlik standartlarına uygun otomatik hizalama.
