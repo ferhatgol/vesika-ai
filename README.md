@@ -102,5 +102,3 @@ Bu proje **MIT Lisansı** ile korunmaktadır.
 ---
 
 *Geliştiren: **Ferhat GÖL** - [LinkedIn](https://www.linkedin.com/in/ferhatgol) / [Web*](https://www.ferhatgol.com)
-
-```
