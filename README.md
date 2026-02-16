@@ -1,6 +1,110 @@
-📸 AI Passport Photo Generator (AI Vesikalık Oluşturucu)AI Passport Photo Generator, sıradan fotoğrafları veya selfieleri saniyeler içinde profesyonel standartlarda, biyometrik uyumlu vesikalık fotoğraflara dönüştüren React tabanlı bir web uygulamasıdır.Google'ın en son Gemini 2.5 Flash modelini kullanarak, karmaşık fotoğraf düzenleme yazılımlarına gerek kalmadan stüdyo kalitesinde sonuçlar üretir.✨ Öne Çıkan Özellikler🤖 Gelişmiş AI İşleme: Gemini 2.5 Flash ile akıllı arka plan temizleme, ışıklandırma ve renk düzeltme.📸 Canlı Kamera Entegrasyonu: Tarayıcı üzerinden doğrudan çekim yapabilme ve mükemmel hizalama için Görsel Rehber Çizgileri.💡 Stüdyo Kalitesinde Işıklandırma: Yapay zeka ile yüze "Butterfly" ışıklandırma simülasyonu ve gölge giderme.⚖️ Biyometrik Koruma: Kişinin yüz hatlarını (burun, göz, çene yapısı) değiştirmeden sadece ortamı ve ışığı profesyonelleştirme.⚡ Hızlı ve Modern: React + TypeScript + Tailwind CSS ile yüksek performanslı kullanıcı deneyimi.💾 Kolay İndirme: Sonuçları anında PNG formatında cihazınıza kaydedin.🚀 Kullanılan TeknolojilerAlanTeknolojiFrontendReact (TypeScript)StilTailwind CSSAI MotoruGoogle Gemini API (gemini-2.5-flash)İkonlarLucide ReactPaket YönetimiModern ES Modules & Vite🛠 Çalışma MantığıUygulama, ham bir görseli profesyonel bir çıktıya dönüştürmek için şu adımları izler:Girdi: Kullanıcı fotoğraf yükler veya rehber çizgileri kullanarak kamera ile çekim yapar.Veri Hazırlama: Görsel Base64 formatına optimize edilerek Gemini API'ye iletilir.Prompt Mühendisliği: AI'ya iletilen komutlar şunları içerir:Renk Dengesi: 5500K stüdyo sıcaklığı.Arka Plan: Saf beyaz (#FFFFFF) ve gölgesiz fon.Hizalama: 3:4 dikey oran ve kafa ortalama.Sonuç: Orijinal ve işlenmiş fotoğraf yan yana karşılaştırmalı olarak sunulur.⚙️ Kurulum ve ÇalıştırmaProjeyi yerel makinenizde çalıştırmak için:Depoyu klonlayın:Bashgit clone https://github.com/kullaniciadi/ai-vesikalik-olusturucu.git
-cd ai-vesikalik-olusturucu
-Bağımlılıkları yükleyin:Bashnpm install
-API Anahtarını Ayarlayın:.env dosyası oluşturun ve Google Gemini API anahtarınızı ekleyin:Kod snippet'iVITE_GEMINI_API_KEY=YOUR_API_KEY_HERE
-Uygulamayı başlatın:Bashnpm run dev
-🧠 AI Prompt StratejisiBu projenin kalbi, Gemini modeline gönderilen Kritik İşleme Talimatlarıdır. AI'ya sadece "fotoğrafı düzenle" demek yerine, şu parametreler emredilir:"Fix the white balance to 5500K. Simulate butterfly lighting. Remove harsh shadows. Replace background with solid #FFFFFF. Ensure biometric integrity—do not alter facial features."🤝 Katkıda BulunmaKatkılarınızı bekliyoruz! Bir hata bulduysanız veya yeni bir özellik eklemek isterseniz lütfen bir "Issue" açın veya "Pull Request" gönderin.Bu depoyu Fork edin.Özellik dalınızı oluşturun (git checkout -b feature/yeniOzellik).Değişikliklerinizi Commit edin (git commit -m 'Yeni özellik eklendi').Dalınıza Push yapın (git push origin feature/yeniOzellik).Bir Pull Request açın.📄 LisansBu proje MIT lisansı altında lisanslanmıştır.Geliştiren: [Senin Adın/Kullanıcı Adın]🌟 Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+Anladım, o görüntü tam bir "text-wall" (metin duvarı) faciası olmuş. Haklısın, profesyonel bir yazılım projesi böyle görünmemeli. GitHub'da bir projenin "vitrini" README dosyasıdır ve bu dosyanın hem okunaklı hem de görsel olarak tatmin edici olması gerekir.
+
+Senin için bu içeriği, **modern GitHub standartlarında**, hiyerarşisi net, emojilerin yerinde kullanıldığı ve bölümlerin birbirinden ayrıldığı **"Premium"** bir sürüme dönüştürdüm.
+
+---
+
+### 🚀 Yeni ve Profesyonel `README.md` Tasarımı
+
+Aşağıdaki kodu kopyalayıp GitHub'daki `README.md` dosyanın içine tamamen yapıştırabilirsin:
+
+```markdown
+# 📸 AI Passport Photo Generator
+> **Sıradan bir selfie'yi saniyeler içinde profesyonel bir biyometrik vesikalığa dönüştürün.**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+---
+
+## 🌟 Proje Hakkında
+Bu proje, karmaşık fotoğraf düzenleme araçlarına ihtiyaç duymadan, **Google Gemini 2.5 Flash** modelinin gücünü kullanarak herkesin kendi evinde stüdyo kalitesinde vesikalık fotoğraflar çekebilmesini sağlar.
+
+### Neden AI Passport Pro?
+* **Biyometrik Uyum:** Pasaport ve kimlik standartlarına uygun otomatik hizalama.
+* **Akıllı Rötuş:** Yüz hatlarını bozmadan stüdyo ışığı ve renk dengesi sağlama.
+* **Hız:** İşlem süreci saniyeler içinde tamamlanır.
+
+---
+
+## ✨ Öne Çıkan Özellikler
+
+| Özellik | Açıklama |
+| :--- | :--- |
+| 🤖 **Gemini 2.5 Flash** | En gelişmiş AI motoru ile keskin arka plan temizleme ve ışıklandırma. |
+| 📷 **Canlı Kamera** | Tarayıcı üzerinden doğrudan çekim ve gerçek zamanlı yüz kılavuz çizgileri. |
+| 💡 **Butterfly Lighting** | Sert gölgeleri yok eden profesyonel stüdyo aydınlatma simülasyonu. |
+| 🎨 **Renk Yönetimi** | 5500K nötr beyaz dengesi ve doğal cilt tonu koruması. |
+| 🔒 **Kimlik Koruma** | Biyometrik veriyi bozmaz; göz, burun ve çene yapısını değiştirmez. |
+
+---
+
+## 🛠 Teknik Mimari
+
+Proje, modern ve performans odaklı bir teknoloji yığını üzerine inşa edilmiştir:
+
+* **Frontend:** React (TypeScript) ile tip güvenli geliştirme.
+* **Stil:** Tailwind CSS ile responsive ve şık arayüz.
+* **AI Bağlantısı:** `@google/genai` SDK'sı üzerinden doğrudan model etkileşimi.
+* **Hizalama:** HTML5 Media Devices API ile kamera kontrolü ve rehber katmanlar.
+
+---
+
+## 🚀 Kurulum
+
+Projeyi kendi yerel ortamınızda çalıştırmak için şu adımları izleyin:
+
+1. **Repoyu klonlayın:**
+   ```bash
+   git clone [https://github.com/kullaniciadi/ai-vesikalik-olusturucu.git](https://github.com/kullaniciadi/ai-vesikalik-olusturucu.git)
+
+```
+
+2. **Bağımlılıkları yükleyin:**
+```bash
+npm install
+
+```
+
+
+3. **API Anahtarını Tanımlayın:**
+`.env` dosyası oluşturun ve Gemini API anahtarınızı ekleyin:
+```env
+VITE_GEMINI_API_KEY=Sizin_API_Anahtarınız
+
+```
+
+
+4. **Projeyi Başlatın:**
+```bash
+npm run dev
+
+```
+
+
+
+---
+
+🧠 AI Prompt Mühendisliği
+
+Bu projenin başarısı, Gemini modeline gönderilen özel **Kritik İşleme Talimatları**'nda gizlidir. Model sadece bir "edit" yapmaz; beyaz dengesini ayarlar, arka planı `#FFFFFF` koduna sabitler ve yüzü 3:4 oranında matematiksel olarak ortalar.
+
+---
+
+🤝 Katkıda Bulunma
+
+Geliştirmelere katkıda bulunmak isterseniz bir `Pull Request` açmaktan çekinmeyin! Büyük değişiklikler için önce bir `Issue` açarak neyi değiştirmek istediğinizi tartışalım.
+
+---
+
+📜 Lisans
+
+Bu proje **MIT Lisansı** ile korunmaktadır.
+
+---
+
+*Geliştiren: **Ferhat GÖL** - [LinkedIn](https://www.linkedin.com/in/ferhatgol) / [Web*](https://www.ferhatgol.com)
+
+```
