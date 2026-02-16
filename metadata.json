@@ -1,0 +1,7 @@
+{
+  "name": "AI Vesikalık Oluşturucu",
+  "description": "Yüklediğiniz fotoğrafları saniyeler içinde profesyonel biyometrik vesikalık fotoğraflara dönüştürün.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
